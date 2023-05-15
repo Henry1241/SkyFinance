@@ -167,6 +167,7 @@ public class Prestamo extends javax.swing.JFrame {
                 if(C.equals(contraseña)){
 
                     JOptionPane.showMessageDialog(null, "Bienvenido ");
+                    menu.setVisible(true);
                     break;
 
                 }else{
@@ -181,7 +182,7 @@ public class Prestamo extends javax.swing.JFrame {
             }
         }
 
-        menu.setVisible(true);
+        
     }//GEN-LAST:event_btnLoginActionPerformed
 
     private void btnCerrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCerrarActionPerformed

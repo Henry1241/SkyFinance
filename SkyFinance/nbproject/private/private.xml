@@ -2,6 +2,20 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/enri0/OneDrive/Documents/Repositorios/SkyFinance/SkyFinance/src/mx/itson/prestamo/ui/Prestamo.java</file>
+            <file>file:/C:/Users/enri0/OneDrive/Documents/Repositorios/SkyFinance/SkyFinance/src/mx/itson/prestamo/ui/Menu.java</file>
+            <file>file:/C:/Users/enri0/OneDrive/Documents/Repositorios/SkyFinance/SkyFinance/src/mx/itson/prestamo/ui/SolicitarPrestamo.java</file>
+            <file>file:/C:/Users/enri0/OneDrive/Documents/Repositorios/SkyFinance/SkyFinance/src/mx/itson/prestamo/entidades/Abono.java</file>
+            <file>file:/C:/Users/enri0/OneDrive/Documents/Repositorios/SkyFinance/SkyFinance/src/mx/itson/prestamo/enumeradores/EstadoCuota.java</file>
+            <file>file:/C:/Users/enri0/OneDrive/Documents/Repositorios/SkyFinance/SkyFinance/src/mx/itson/prestamo/entidades/Garantia.java</file>
+            <file>file:/C:/Users/enri0/OneDrive/Documents/Repositorios/SkyFinance/SkyFinance/src/mx/itson/prestamo/entidades/Prestamo.java</file>
+            <file>file:/C:/Users/enri0/OneDrive/Documents/Repositorios/SkyFinance/SkyFinance/src/mx/itson/prestamo/ui/HistorialPrestamo.java</file>
+            <file>file:/C:/Users/enri0/OneDrive/Documents/Repositorios/SkyFinance/SkyFinance/src/mx/itson/prestamo/ui/PagarPrestamo.java</file>
+            <file>file:/C:/Users/enri0/OneDrive/Documents/Repositorios/SkyFinance/SkyFinance/src/mx/itson/prestamo/ui/CancelarPrestamo.java</file>
+            <file>file:/C:/Users/enri0/OneDrive/Documents/Repositorios/SkyFinance/SkyFinance/src/mx/itson/prestamo/entidades/Cliente.java</file>
+            <file>file:/C:/Users/enri0/OneDrive/Documents/Repositorios/SkyFinance/SkyFinance/src/mx/itson/prestamo/ui/HistorialVista.java</file>
+            <file>file:/C:/Users/enri0/OneDrive/Documents/Repositorios/SkyFinance/SkyFinance/src/mx/itson/prestamo/entidades/Cuota.java</file>
+        </group>
     </open-files>
 </project-private>
