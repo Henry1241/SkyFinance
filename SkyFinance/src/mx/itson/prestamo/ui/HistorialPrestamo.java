@@ -148,6 +148,7 @@ public class HistorialPrestamo extends javax.swing.JDialog {
         // Se abre la tabla de movimientos y se le pasa el id como parámetro
         HistorialVista tabla = new HistorialVista();
         tabla.setVisible(true);
+        
     }//GEN-LAST:event_btnHistorialActionPerformed
 
     /**
