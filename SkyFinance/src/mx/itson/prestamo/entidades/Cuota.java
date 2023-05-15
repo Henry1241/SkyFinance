@@ -11,7 +11,9 @@ import mx.itson.prestamo.enumeradores.EstadoCuota;
 
 /**
  *
- * @author enri0
+ * @author Enrique Gonzales Leyva
+ *         Jesus Alexis Martan Gallardo
+ *         Xylan Rodriguez Robles
  */
 public class Cuota {
     private int id;

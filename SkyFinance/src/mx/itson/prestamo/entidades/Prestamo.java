@@ -14,7 +14,9 @@ import mx.itson.prestamo.enumeradores.TipoPrestamo;
 
 /**
  *
- * @author Sisti
+ * @author Enrique Gonzales Leyva
+ *         Jesus Alexis Martan Gallardo
+ *         Xylan Rodriguez Robles
  */
 public class Prestamo {
     

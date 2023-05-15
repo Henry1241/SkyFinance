@@ -7,7 +7,9 @@ package mx.itson.prestamo.ui;
 
 /**
  *
- * @author Sisti
+ * @author Enrique Gonzales Leyva
+ *         Jesus Alexis Martan Gallardo
+ *         Xylan Rodriguez Robles
  */
 public class HistorialPrestamo extends javax.swing.JFrame {
 

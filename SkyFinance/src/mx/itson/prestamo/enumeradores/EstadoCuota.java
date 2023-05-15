@@ -7,7 +7,9 @@ package mx.itson.prestamo.enumeradores;
 
 /**
  *
- * @author Sisti
+ * @author Enrique Gonzales Leyva
+ *         Jesus Alexis Martan Gallardo
+ *         Xylan Rodriguez Robles
  */
 public enum EstadoCuota {
     PAGADO, 
