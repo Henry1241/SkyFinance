@@ -61,6 +61,11 @@ public class HistorialPrestamo extends javax.swing.JDialog {
         jLabel7.setText("Garantia");
 
         btnHistorial.setText("Historial");
+        btnHistorial.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnHistorialActionPerformed(evt);
+            }
+        });
 
         jLabel8.setText("Ver historial de prestamos");
 
@@ -137,6 +142,13 @@ public class HistorialPrestamo extends javax.swing.JDialog {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnHistorialActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHistorialActionPerformed
+        // TODO add your handling code here:
+        // Se abre la tabla de movimientos y se le pasa el id como parámetro
+        HistorialVista tabla = new HistorialVista();
+        tabla.setVisible(true);
+    }//GEN-LAST:event_btnHistorialActionPerformed
 
     /**
      * @param args the command line arguments
