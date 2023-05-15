@@ -20,7 +20,7 @@ public class Prestamo extends javax.swing.JFrame {
     public Prestamo() {
         initComponents();
     }
-
+    Menu menu = new Menu();
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -99,7 +99,8 @@ public class Prestamo extends javax.swing.JFrame {
             break;
             }
          }
-    
+        
+    menu.setVisible(true);
     }//GEN-LAST:event_btnLoginActionPerformed
 
     private void btnRegisterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegisterActionPerformed
