@@ -5,6 +5,7 @@
  */
 package mx.itson.prestamo.ui;
 
+
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
@@ -105,12 +106,21 @@ public class Prestamo extends javax.swing.JFrame {
 
     private void btnRegisterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegisterActionPerformed
         // TODO add your handling code here:
-       
-        
+      
         String usuario = JOptionPane.showInputDialog("Ingrese su nombre de usuario por favor");
+        String fechaNacimiento = JOptionPane.showInputDialog("Ingrese su fecha de nacimiento");
+        String direccion = JOptionPane.showInputDialog("Ingrese su direccion");
+        String numeroTelefono = JOptionPane.showInputDialog("Ingrese su numero de telefono");
+        String ingresoMensual = JOptionPane.showInputDialog("Ingrese su ingreso mensual");
+        String documentoIdentificador = JOptionPane.showInputDialog("Favor de ingresar los numeros de identificación");
         String contraseña = JOptionPane.showInputDialog("Ingrese su contraseña");
         String U = usuario;
         String C = contraseña;
+        String F = fechaNacimiento;
+        String D = direccion;
+        String N = numeroTelefono;
+        String I = ingresoMensual;
+        String DI = documentoIdentificador;
          JOptionPane.showMessageDialog(null,
                     "Se ha registrado con exito", "Exito", JOptionPane.OK_OPTION);
     }//GEN-LAST:event_btnRegisterActionPerformed
