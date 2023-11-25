@@ -209,6 +209,7 @@ public class PagarPrestamo extends javax.swing.JFrame {
     private void btnCerrar1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCerrar1ActionPerformed
         // TODO add your handling code here:
         dispose();
+        System.exit(0);
     }//GEN-LAST:event_btnCerrar1ActionPerformed
 
     /**
