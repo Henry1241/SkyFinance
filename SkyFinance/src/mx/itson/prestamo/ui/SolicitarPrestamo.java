@@ -183,7 +183,6 @@ public class SolicitarPrestamo extends javax.swing.JFrame {
     private void btnCerrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCerrarActionPerformed
         // TODO add your handling code here:
         dispose();
-        System.exit(0);
     }//GEN-LAST:event_btnCerrarActionPerformed
 
     /**

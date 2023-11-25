@@ -148,37 +148,21 @@ public class Menu extends javax.swing.JFrame {
     private void btnSolicitarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSolicitarActionPerformed
         // TODO add your handling code here:
         solicitarPrestamo.setVisible(true);
-        btnSolicitar.setEnabled(false);
-        btnCancelar.setEnabled(false);
-        btnPagar.setEnabled(false);
-        btnHistorial.setEnabled(false);
     }//GEN-LAST:event_btnSolicitarActionPerformed
 
     private void btnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelarActionPerformed
         // TODO add your handling code here:
         cancelarPrestamo.setVisible(true);
-        btnCancelar.setEnabled(false);
-        btnSolicitar.setEnabled(false);
-        btnPagar.setEnabled(false);
-        btnHistorial.setEnabled(false);
     }//GEN-LAST:event_btnCancelarActionPerformed
 
     private void btnPagarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPagarActionPerformed
         // TODO add your handling code here:
         pagarPrestamo.setVisible(true);
-        btnPagar.setEnabled(false);
-        btnSolicitar.setEnabled(false);
-        btnCancelar.setEnabled(false);
-        btnHistorial.setEnabled(false);
     }//GEN-LAST:event_btnPagarActionPerformed
 
     private void btnHistorialActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHistorialActionPerformed
         // TODO add your handling code here:
-        historialPrestamo.setVisible(true);
-        btnHistorial.setEnabled(false);
-        btnSolicitar.setEnabled(false);
-        btnCancelar.setEnabled(false);
-        btnPagar.setEnabled(false);
+        historialPrestamo.setVisible(true); 
     }//GEN-LAST:event_btnHistorialActionPerformed
 
     /**

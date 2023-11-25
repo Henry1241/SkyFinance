@@ -23,7 +23,7 @@ public class Prestamo extends javax.swing.JFrame {
      */
     private static final Prestamo instance = new Prestamo();
     
-    //Se utiliza un constructor privado para evadir que el cliente use el constructor    
+    //Se utiliza el patron de desiño Singleton para evitar instacias innecesarias.  
     private Prestamo(){
         initComponents();
     }
@@ -163,7 +163,7 @@ public class Prestamo extends javax.swing.JFrame {
         }else{
             JOptionPane.showMessageDialog(null, "Error al registrar usuario", "Error", JOptionPane.ERROR_MESSAGE);
         }
-        
+        btnLogin.setEnabled(false);
     }//GEN-LAST:event_btnRegisterActionPerformed
 
     private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoginActionPerformed
@@ -193,13 +193,14 @@ public class Prestamo extends javax.swing.JFrame {
                 break;
             }
         }
-
+        btnRegister.setEnabled(false);
         
     }//GEN-LAST:event_btnLoginActionPerformed
 
     private void btnCerrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCerrarActionPerformed
         // TODO add your handling code here:
         dispose();
+        System.exit(0);
     }//GEN-LAST:event_btnCerrarActionPerformed
 
     /**
