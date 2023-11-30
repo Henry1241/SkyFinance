@@ -5,8 +5,6 @@
  */
 package mx.itson.edu.prestamo.entidades;
 
-import mx.itson.edu.prestamo.interfaz.Persona;
-
 /**
  *
  * @author Enrique Gonzales Leyva
@@ -14,37 +12,28 @@ import mx.itson.edu.prestamo.interfaz.Persona;
  *         Xylan Rodriguez Robles
  */
 public class Cliente {
-    private final Persona persona;
+    
+    public Cliente definirId(){
+        return new Cliente();
+    }
 
-  public Cliente(Persona persona){
-        this.persona = persona;
+    public Cliente definirNombre(){
+        return new Cliente();
     }
-    
-    public void id(){
-        persona.id();
+    public Cliente definirApellido(){
+        return new Cliente();
     }
-    
-    public void nombre(){
-        persona.nombre();
+    public Cliente definirTelefono(){
+        return new Cliente();
     }
-    
-    public void apellido(){
-        persona.apellido();
+    public Cliente definirDireccion(){
+        return new Cliente();
     }
-    
-    public void direccion(){
-        persona.direccion();
+    public Cliente definirEmail(){
+        return new Cliente();
     }
-    
-    public void telefono(){
-        persona.telefono();
-    }
-    
-    public void email(){
-        persona.email();
-    }
-    
-    public void sueldo(){
-        persona.sueldo();
+    public Cliente definirSueldo(){
+        return new Cliente();
     }
 }
+

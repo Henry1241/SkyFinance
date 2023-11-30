@@ -4,6 +4,9 @@
  */
 package mx.itson.edu.prestamo.interfaz;
 
+import mx.itson.edu.prestamo.entidades.Cliente;
+import mx.itson.edu.prestamo.entidades.Empleado;
+
 /**
  *
  * @author enri0
@@ -18,4 +21,14 @@ public interface Persona {
     void email();
     void sueldo();
     void cargo();
+    
+    Cliente definirId();
+    Cliente definirNombre();
+    Cliente definirApellido();
+    Cliente definirDireccion();
+    Cliente definirTelefono();
+    Cliente definirEmail();
+    Cliente definirSueldo();
+    
+    Empleado definirCargo();
 }
