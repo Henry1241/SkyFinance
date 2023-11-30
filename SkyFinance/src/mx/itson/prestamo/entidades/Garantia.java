@@ -5,58 +5,31 @@
  */
 package mx.itson.prestamo.entidades;
 
+import mx.itson.edu.prestamo.interfaz.DatoPrestamo;
+
 /**
  *
  * @author Enrique Gonzales Leyva
  *         Jesus Alexis Martan Gallardo
  *         Xylan Rodriguez Robles
  */
-public class Garantia {
-    private int id;
-    private String descripción;
-    private double valor;
+public class Garantia{
 
-    /**
-     * @return the id
-     */
-    public int getId() {
-        return id;
-    }
-
-    /**
-     * @param id the id to set
-     */
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    /**
-     * @return the descripción
-     */
-    public String getDescripción() {
-        return descripción;
-    }
-
-    /**
-     * @param descripción the descripción to set
-     */
-    public void setDescripción(String descripción) {
-        this.descripción = descripción;
-    }
-
-    /**
-     * @return the valor
-     */
-    public double getValor() {
-        return valor;
-    }
-
-    /**
-     * @param valor the valor to set
-     */
-    public void setValor(double valor) {
-        this.valor = valor;
+    private final DatoPrestamo datoPrestamo;
+    
+    public Garantia(DatoPrestamo datoPrestamo){
+        this.datoPrestamo = datoPrestamo;
     }
     
+    public void id(){
+        datoPrestamo.id();
+    }
     
+    public void descripcion(){
+        datoPrestamo.descripcion();
+    }
+    
+    public void valor(){
+        datoPrestamo.valor();
+    }
 }

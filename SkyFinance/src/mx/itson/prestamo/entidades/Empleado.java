@@ -5,6 +5,8 @@
  */
 package mx.itson.prestamo.entidades;
 
+import mx.itson.edu.prestamo.interfaz.Persona;
+
 /**
  *
  * @author Enrique Gonzales Leyva
@@ -12,83 +14,29 @@ package mx.itson.prestamo.entidades;
  *         Xylan Rodriguez Robles
  */
 public class Empleado {
-    private int id;
-    private String nombre;
-    private String apellido;
-    private String cargo;
-    private String telefono;
-
-    /**
-     * @return the id
-     */
-    public int getId() {
-        return id;
-    }
-
-    /**
-     * @param id the id to set
-     */
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    /**
-     * @return the nombre
-     */
-    public String getNombre() {
-        return nombre;
-    }
-
-    /**
-     * @param nombre the nombre to set
-     */
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    /**
-     * @return the apellido
-     */
-    public String getApellido() {
-        return apellido;
-    }
-
-    /**
-     * @param apellido the apellido to set
-     */
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
-    }
-
-    /**
-     * @return the cargo
-     */
-    public String getCargo() {
-        return cargo;
-    }
-
-    /**
-     * @param cargo the cargo to set
-     */
-    public void setCargo(String cargo) {
-        this.cargo = cargo;
-    }
-
-    /**
-     * @return the telefono
-     */
-    public String getTelefono() {
-        return telefono;
-    }
-
-    /**
-     * @param telefono the telefono to set
-     */
-    public void setTelefono(String telefono) {
-        this.telefono = telefono;
+    private final Persona persona;
+    
+    public Empleado(Persona persona){
+        this.persona = persona;
     }
     
-
-
-            
+    public void id(){
+        persona.id();
+    }
+    
+    public void nombre(){
+        persona.nombre();
+    }
+    
+    public void apellido(){
+        persona.apellido();
+    }
+    
+    public void cargo(){
+        persona.cargo();
+    }
+    
+    public void telefono(){
+        persona.telefono();
+    }
 }

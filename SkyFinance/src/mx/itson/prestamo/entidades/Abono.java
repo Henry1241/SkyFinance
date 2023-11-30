@@ -5,9 +5,7 @@
  */
 package mx.itson.prestamo.entidades;
 
-import java.util.Date;
-import mx.itson.prestamo.enumeradores.FormaPago;
-
+import mx.itson.edu.prestamo.interfaz.DatoPrestamo;
 /**
  *
  * @author Enrique Gonzales Leyva
@@ -15,65 +13,26 @@ import mx.itson.prestamo.enumeradores.FormaPago;
  *         Xylan Rodriguez Robles
  */
 public class Abono {
- private int id;
-    private Date fecha;
-    private double monto;
-    private FormaPago tipo;
+    private final DatoPrestamo datoPrestamo;
+   
+    public Abono(DatoPrestamo datoPrestamo){
+        this.datoPrestamo = datoPrestamo;
+    }
     
-    /**
-     * @return the id
-     */
-    public int getId() {
-        return id;
+    public void id(){
+        datoPrestamo.id();
     }
-
-    /**
-     * @param id the id to set
-     */
-    public void setId(int id) {
-        this.id = id;
+    
+    public void fecha(){
+        datoPrestamo.fecha();
     }
-
-    /**
-     * @return the fecha
-     */
-    public Date getFecha() {
-        return fecha;
+    
+    public void monto(){
+        datoPrestamo.monto();
     }
-
-    /**
-     * @param fecha the fecha to set
-     */
-    public void setFecha(Date fecha) {
-        this.fecha = fecha;
-    }
-
-    /**
-     * @return the monto
-     */
-    public double getMonto() {
-        return monto;
-    }
-
-    /**
-     * @param monto the monto to set
-     */
-    public void setMonto(double monto) {
-        this.monto = monto;
-    }
-
-    /**
-     * @return the tipo
-     */
-    public FormaPago getTipo() {
-        return tipo;
-    }
-
-    /**
-     * @param tipo the tipo to set
-     */
-    public void setTipo(FormaPago tipo) {
-        this.tipo = tipo;
+    
+    public void tipo(){
+        datoPrestamo.tipo();
     }
    
 }
