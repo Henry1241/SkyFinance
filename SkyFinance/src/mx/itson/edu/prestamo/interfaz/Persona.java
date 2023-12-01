@@ -8,8 +8,10 @@ import mx.itson.edu.prestamo.entidades.Cliente;
 import mx.itson.edu.prestamo.entidades.Empleado;
 
 /**
- *
- * @author enri0
+ * Interfaz Persona que aplica el patron factory hacia las entidades relacionadas con empleados y clientes
+ * @author Enrique Gonzales Leyva
+ *         Jesus Alexis Martan Gallardo
+ *         Xylan Rodriguez Robles
  */
 public interface Persona {
     

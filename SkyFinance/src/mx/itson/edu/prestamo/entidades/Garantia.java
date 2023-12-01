@@ -8,7 +8,7 @@ package mx.itson.edu.prestamo.entidades;
 import mx.itson.edu.prestamo.interfaz.DatoPrestamo;
 
 /**
- *
+ * Clase garantia que guarda los valores necesarios para la garantia
  * @author Enrique Gonzales Leyva
  *         Jesus Alexis Martan Gallardo
  *         Xylan Rodriguez Robles

@@ -8,7 +8,7 @@ package mx.itson.edu.prestamo.entidades;
 import mx.itson.edu.prestamo.interfaz.DatoPrestamo;
 
 /**
- *
+ * Clase cuota que guarda los valores necesarios para generar una cuota
  * @author Enrique Gonzales Leyva
  *         Jesus Alexis Martan Gallardo
  *         Xylan Rodriguez Robles

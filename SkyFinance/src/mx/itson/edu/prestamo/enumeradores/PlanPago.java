@@ -6,7 +6,7 @@
 package mx.itson.edu.prestamo.enumeradores;
 
 /**
- *
+ * Enumerador de plan de pago
  * @author Enrique Gonzales Leyva
  *         Jesus Alexis Martan Gallardo
  *         Xylan Rodriguez Robles

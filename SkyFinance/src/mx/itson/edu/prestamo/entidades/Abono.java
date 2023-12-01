@@ -7,7 +7,7 @@ package mx.itson.edu.prestamo.entidades;
 
 import mx.itson.edu.prestamo.interfaz.DatoPrestamo;
 /**
- *
+ * Clase abono que guarda los valores necesarios para un abono
  * @author Enrique Gonzales Leyva
  *         Jesus Alexis Martan Gallardo
  *         Xylan Rodriguez Robles

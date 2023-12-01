@@ -6,7 +6,7 @@
 package mx.itson.edu.prestamo.entidades;
 
 /**
- *
+ * Clase cliente que guarda los valores necesarios para añadir un cliente
  * @author Enrique Gonzales Leyva
  *         Jesus Alexis Martan Gallardo
  *         Xylan Rodriguez Robles

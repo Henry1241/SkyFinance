@@ -6,8 +6,10 @@ package mx.itson.edu.prestamo.interfaz;
 
 
 /**
- *
- * @author enri0
+ * Interfaz DatoPrestamo que aplica el patron factory hacia las entidades relacionados con datos de prestamo
+ * @author Enrique Gonzales Leyva
+ *         Jesus Alexis Martan Gallardo
+ *         Xylan Rodriguez Robles
  */
 public interface DatoPrestamo {
     

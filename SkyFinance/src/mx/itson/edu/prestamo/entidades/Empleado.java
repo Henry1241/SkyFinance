@@ -6,7 +6,7 @@
 package mx.itson.edu.prestamo.entidades;
 
 /**
- *
+ * Clase empleado que guarda los valores necesarios para un empleado
  * @author Enrique Gonzales Leyva
  *         Jesus Alexis Martan Gallardo
  *         Xylan Rodriguez Robles
