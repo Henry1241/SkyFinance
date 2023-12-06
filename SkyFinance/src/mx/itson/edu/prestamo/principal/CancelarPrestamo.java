@@ -12,6 +12,7 @@ import javax.swing.JOptionPane;
  * @author Enrique Gonzales Leyva
  *         Jesus Alexis Martan Gallardo
  *         Xylan Rodriguez Robles
+ *         Omar Ignacio Urias Ruiz
  */
 public class CancelarPrestamo extends javax.swing.JFrame {
 

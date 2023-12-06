@@ -12,6 +12,7 @@ import mx.itson.edu.prestamo.interfaz.DatoPrestamo;
  * @author Enrique Gonzales Leyva
  *         Jesus Alexis Martan Gallardo
  *         Xylan Rodriguez Robles
+ *         Omar Ignacio Urias Ruiz
  */
 public class Prestamo {    
     private final DatoPrestamo datoPrestamo;

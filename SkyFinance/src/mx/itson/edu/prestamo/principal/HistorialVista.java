@@ -7,7 +7,10 @@ package mx.itson.edu.prestamo.principal;
 
 /**
  *
- * @author enri0
+ * @author Enrique Gonzales Leyva
+ *         Jesus Alexis Martan Gallardo
+ *         Xylan Rodriguez Robles
+ *         Omar Ignacio Urias Ruiz
  */
 public class HistorialVista extends javax.swing.JFrame {
 

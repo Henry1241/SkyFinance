@@ -12,6 +12,7 @@ import mx.itson.edu.prestamo.entidades.Empleado;
  * @author Enrique Gonzales Leyva
  *         Jesus Alexis Martan Gallardo
  *         Xylan Rodriguez Robles
+ *         Omar Ignacio Urias Ruiz
  */
 public interface Persona {
     

@@ -10,6 +10,7 @@ package mx.itson.edu.prestamo.interfaz;
  * @author Enrique Gonzales Leyva
  *         Jesus Alexis Martan Gallardo
  *         Xylan Rodriguez Robles
+ *         Omar Ignacio Urias Ruiz
  */
 public interface DatoPrestamo {
     

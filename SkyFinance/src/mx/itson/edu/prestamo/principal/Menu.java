@@ -10,6 +10,7 @@ package mx.itson.edu.prestamo.principal;
  * @author Enrique Gonzales Leyva
  *         Jesus Alexis Martan Gallardo
  *         Xylan Rodriguez Robles
+ *         Omar Ignacio Urias Ruiz
  */
 public class Menu extends javax.swing.JFrame {
 
